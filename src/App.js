@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Friends />} />
+        <Route path="/" exact={true} element={<Friends />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/chats" element={<Chats />} />
         <Route path="/chatting" element={<Chatting />} />
