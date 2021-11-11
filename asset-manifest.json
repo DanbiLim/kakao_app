@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kakao_app/static/css/main.bc185b25.chunk.css",
+    "main.js": "/kakao_app/static/js/main.2db37d89.chunk.js",
+    "main.js.map": "/kakao_app/static/js/main.2db37d89.chunk.js.map",
+    "runtime-main.js": "/kakao_app/static/js/runtime-main.af3bf30b.js",
+    "runtime-main.js.map": "/kakao_app/static/js/runtime-main.af3bf30b.js.map",
+    "static/js/2.7a757601.chunk.js": "/kakao_app/static/js/2.7a757601.chunk.js",
+    "static/js/2.7a757601.chunk.js.map": "/kakao_app/static/js/2.7a757601.chunk.js.map",
+    "index.html": "/kakao_app/index.html",
+    "static/css/main.bc185b25.chunk.css.map": "/kakao_app/static/css/main.bc185b25.chunk.css.map",
+    "static/js/2.7a757601.chunk.js.LICENSE.txt": "/kakao_app/static/js/2.7a757601.chunk.js.LICENSE.txt",
+    "static/media/Profile.scss": "/kakao_app/static/media/bg_default.82687b4e.png",
+    "static/media/More.scss": "/kakao_app/static/media/path.7d00edf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af3bf30b.js",
+    "static/js/2.7a757601.chunk.js",
+    "static/css/main.bc185b25.chunk.css",
+    "static/js/main.2db37d89.chunk.js"
+  ]
+}
