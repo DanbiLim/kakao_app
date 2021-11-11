@@ -7,6 +7,7 @@ import Chats from './routes/Chats';
 import Chatting from './routes/Chatting';
 import Find from './routes/Find';
 import More from './routes/More';
+import './reset.css'
 
 function App() {
   return (
