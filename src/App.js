@@ -11,7 +11,7 @@ import './reset.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Friends />} />
         <Route path="/profile" element={<Profile />} />
