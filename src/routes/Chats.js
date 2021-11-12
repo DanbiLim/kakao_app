@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Headerstatus from '../components/Headerstatus'
 import friends from '../data/FriendList.json'
 import ChatList from '../components/ChatList'
@@ -67,7 +66,6 @@ function Chats() {
                 </ul> */}
             </section>
         </main>
-        <Navigation />
         </>
     )
 }

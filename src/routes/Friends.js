@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Headerstatus from '../components/Headerstatus'
 import friends from '../data/FriendList.json'
 import FriendList from '../components/FriendList'
@@ -51,36 +50,6 @@ function Friends() {
                     <h2>Friends</h2>
                 </div>
                 <div className="friend_profile">
-                    {/* <ul>
-                        <li>
-                            <Link to="/profile">
-                                <span className="profile_img empty"></span>
-                                <span className="profile_name">Friend Name</span>
-                                <span className="profile_messages">Have a good day. See you soon.</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/profile">
-                                <span className="profile_img empty"></span>
-                                <span className="profile_name">Friend Name</span>
-                                <span className="profile_messages">Have a good day. See you soon.</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/profile">
-                                <span className="profile_img empty"></span>
-                                <span className="profile_name">Friend Name</span>
-                                <span className="profile_messages">Have a good day. See you soon.</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/profile">
-                                <span className="profile_img empty"></span>
-                                <span className="profile_name">Friend Name</span>
-                                <span className="profile_messages">Have a good day. See you soon.</span>
-                            </Link>
-                        </li>
-                    </ul> */}
                     {friends.map(friend => {
                         if(friend.id != 0) {
                             return (
@@ -98,7 +67,6 @@ function Friends() {
                 </div>
             </section>
         </main>
-        <Navigation />
         </>
     )
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Headerstatus from '../components/Headerstatus'
 import friends from '../data/FriendList.json'
 import {Link} from 'react-router-dom';
@@ -67,7 +66,6 @@ function More() {
                 </ul>
             </section>
         </main>
-        <Navigation />
         </>
     )
 }

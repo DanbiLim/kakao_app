@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
 import Headerstatus from '../components/Headerstatus'
 import {Link} from 'react-router-dom';
 import '../styles/Headerstyle.scss'
@@ -32,7 +31,6 @@ function Find() {
                 </ul>
             </section>
         </main>
-        <Navigation />
         </>
     )
 }
